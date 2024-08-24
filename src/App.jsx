@@ -1,13 +1,20 @@
-
-import './App.css'
+import './App.css';
+import Home from "./pages/Home/Home.jsx";
+import Games from "./pages/Games/Games.jsx";
+import Shop from "./pages/Shop/Shop.jsx";
+import { BrowerRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
-    <>
-      <p>A long time ago in a dimension far away</p>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Slider" element={<Games />} />
+        <Route path="Animations" element={<Shop />} />
+      </Routes>
+    </Router>
   )
 }
 
-export default App
+export default App;
