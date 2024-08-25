@@ -1,10 +1,13 @@
 import styles from "./Games.module.css";
+import Layout from "../../components/Layout/Layout";
 
 function Games() {
     return (
-        <div className={styles.pGames}>
-            <p>Games</p>
-        </div>
+        <Layout>
+            <div className={styles.pGames}>
+                <p>Games</p>
+            </div>
+        </Layout>
     )
 }
 

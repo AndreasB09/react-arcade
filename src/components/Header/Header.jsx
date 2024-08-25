@@ -9,10 +9,10 @@ function Header() {
                 <Link to="/">
                     <button className={styles.navbtn}>Home</button>
                 </Link>
-                <Link to="games">
+                <Link to="/games">
                     <button className={styles.navbtn}>Games</button>
                 </Link>
-                <Link to="shop">
+                <Link to="/shop">
                     <button className={styles.navbtn}>Shop</button>
                 </Link>
             </div>

@@ -1,10 +1,13 @@
 import styles from "./Home.module.css";
+import Layout from "../../components/Layout/Layout";
 
 function Home() {
     return (
-        <div className={styles.module.css}>
-            <p>Home</p>
-        </div>
+        <Layout>
+            <div className={styles.pHome}>
+                <p>Home</p>
+            </div>
+        </Layout>
     )
 }
 

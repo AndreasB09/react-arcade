@@ -1,10 +1,13 @@
 import styles from "./Shop.module.css";
+import Layout from "../../components/Layout/Layout";
 
 function Shop() {
     return (
-        <div className={styles.pShop}>
-            <p>Shop</p>
-        </div>
+        <Layout>
+            <div className={styles.pShop}>
+                <p>Shop</p>
+            </div>
+        </Layout>
     )
 }
 
