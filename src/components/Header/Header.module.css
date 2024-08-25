@@ -1,6 +1,32 @@
 .logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: aquamarine;
-    border-radius: 50;
+    border-radius: 50%;
+    margin: 0 2rem;
+}
+
+.header {
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.btnContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBtn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+}
+
+.navBtn:hover {
+    color: blue;
 }
