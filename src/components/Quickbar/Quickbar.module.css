@@ -1,0 +1,16 @@
+.favIcon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: brown;
+    margin: 10px;
+    color: green;
+}
+
+.quickbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
